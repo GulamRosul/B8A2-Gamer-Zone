@@ -221,7 +221,7 @@ p {
   align-items: center;
   width: 1500px;
   height: 819px;
-  margin: auto;
+  margin: 6% auto 5% auto;
 }
 .instantly {
   font-family: Work Sans;
@@ -240,53 +240,47 @@ p {
   font-family: Work Sans;
   font-size: 18px;
 }
-.cat-image {
-  width: 341px;
-  height: 381px;
-  border-radius: 8px;
-  border: 10px solid #fff;
-  background: url(<path-to-image>),
-    lightgray 0px -0.304px / 100% 117.229% no-repeat;
-  position: relative;
-  bottom: -112px;
+
+.no-downlode-image-section{
+    position: relative;
 }
-.gaming-man-photo {
-  width: 600px;
-  height: 637px;
-  border-radius: 8px;
-  background: url(<path-to-image>),
-    lightgray -7.583px 0px / 102.389% 100% no-repeat;
+.no-download-small-image{
+    position: absolute;
+    top: 60%;
+    right: 70%;
+}
+.no-downlode-big-image img {
+  width: 80%;
 }
 /* <!-- no downloads section ends here --> */
 /* <!-- Games name section start here --> */
-.website-games{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 10% auto 10% auto;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+.website-games {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10% auto 10% auto;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }
 
-.games-photo-5pss{
-    display: flex;
-
+.games-photo-5pss {
+  display: flex;
 }
-.website-games-item{
-    display: flex;
-    gap: 10px;
-    width: 220px;
-}
-
-.games-photo-4pss{
-    display: flex;
+.website-games-item {
+  display: flex;
+  gap: 10px;
+  width: 220px;
 }
 
-.website-games-item:hover{
-    border-radius: 50px;
-    color: #ff42a5;
-    border: 2px solid #ff42a5;
+.games-photo-4pss {
+  display: flex;
+}
+
+.website-games-item:hover {
+  border-radius: 50px;
+  color: #ff42a5;
+  border: 2px solid #ff42a5;
 }
 /* <!-- Games name section ends here --> */
 
@@ -350,3 +344,16 @@ footer {
   -webkit-text-fill-color: transparent;
 }
 /* footer section end */
+
+
+
+
+/* responsive styles */
+
+/* mobile devices */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    
+}
