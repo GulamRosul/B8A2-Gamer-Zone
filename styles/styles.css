@@ -148,7 +148,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.content {
+.gamer-content {
   color: #534c64;
   text-align: end;
   font-family: Work Sans;
@@ -176,7 +176,7 @@ body {
   color: #534c64;
   text-align: end;
   font-family: Work Sans;
-  font-size: 25px;
+  font-size: 22px;
 }
 .gamer-style {
   text-align: right;
@@ -259,8 +259,35 @@ p {
 }
 /* <!-- no downloads section ends here --> */
 /* <!-- Games name section start here --> */
+.website-games{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10% auto 10% auto;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
 
+.games-photo-5pss{
+    display: flex;
 
+}
+.website-games-item{
+    display: flex;
+    gap: 10px;
+    width: 220px;
+}
+
+.games-photo-4pss{
+    display: flex;
+}
+
+.website-games-item:hover{
+    border-radius: 50px;
+    color: #ff42a5;
+    border: 2px solid #ff42a5;
+}
 /* <!-- Games name section ends here --> */
 
 /* footer section */
@@ -322,3 +349,4 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* footer section end */
