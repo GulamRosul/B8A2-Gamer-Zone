@@ -52,10 +52,6 @@ body {
 .banner-container {
   display: flex;
   justify-content: space-around;
-  text-align: center;
-  padding: 20px;
-  width: 1440px;
-  height: 740px;
 }
 
 .banner-container-descriptin {
@@ -64,19 +60,10 @@ body {
   align-items: center;
 }
 .banner-description {
-  justify-content: space-around;
-  gap: 10%;
-  height: 90%;
   width: 90%;
   margin: auto;
   background-image: url("../images/Group14.png");
 }
-.section-image {
-  height: 80%;
-  width: 80%;
-  margin: 50px;
-}
-
 .goat-section {
   font-size: 95px;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
@@ -270,6 +257,7 @@ p {
 .website-games-item {
   display: flex;
   gap: 10px;
+  align-items: center;
   width: 220px;
 }
 
@@ -355,5 +343,6 @@ footer {
     display: none;
 }
 @media screen and (max-width:576px) {
+
     
 }
